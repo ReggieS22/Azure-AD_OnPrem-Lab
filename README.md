@@ -132,5 +132,91 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 
+## Step 8: Login to the Domain Controller and verify Client-1 shows up in ADUC
+
+   - Expand mydomain.com then go to "computers" to verify
+
+<img width="756" height="533" alt="Screenshot 2025-09-06 105129" src="https://github.com/user-attachments/assets/77b4a2eb-5c15-4ac3-877b-26ffce42a2a7" />
+
+
+
+<p>
+
+## Step 9: Create a new OU named "_CLIENTS" and drag Client-1 into there
+
+
+<img width="759" height="531" alt="Screenshot 2025-09-06 105212" src="https://github.com/user-attachments/assets/cf818cfe-f34d-4453-a195-b95328514884" />
+
+
+
+
+<p>
+
+
+## Step 10: Setting up RDP & User Accounts via PowerShell
+
+   - Setup RDP for non-administrative users on Client-1
+   - We have to login to Client-1 as an admin (using mydomain.com\jane_admin) right click the start menu and open system.
+   - Click on "Remote Desktop" on User Accounts and click "Select users that can remotely access this PC"
+   - Allow "Domain Users" access to remote desktop.
+   - After completing those steps you should be able to log into Client-1 as normal user (any user).
+
+<img width="460" height="256" alt="Screenshot 2025-09-06 105242" src="https://github.com/user-attachments/assets/f443d0c3-1ad2-4d18-b2fe-8a48a3ea949d" />
+
+
+
+
+
+<p>
+
+
+## Step 11: Run Powershell script
+
+   - Use a Powershell script to generate a number of users for our Active Directory Domain.
+   - Login to DC-1 as mydomain.com\jane_admin
+   - Open Powershell_ISE as an administrator and create a new file then save
+   - [(https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)]
+   - Paste the script to generate thousands of users into the domain.
+   - Run Script
+
+<img width="827" height="495" alt="Screenshot 2025-09-06 105259" src="https://github.com/user-attachments/assets/0aae0939-8ea6-4bd3-b001-537a460a9a14" />
+
+- When finished, open ADUC and observe the accounts in the appropriate OU  "_EMPLOYEES"
+
+<img width="828" height="495" alt="Screenshot 2025-09-06 105319" src="https://github.com/user-attachments/assets/31ee762b-8696-4dbd-85d9-873952f806b1" />
+
+
+
+
+
+
+<p>
+
+
+## Step 12: Login as any user
+  
+  - Now you can login as any of the users that was created by the script to further verify that the script has worked.
+  - Take note of the default password in the script (Password1) for all users.
+
+<img width="450" height="557" alt="Screenshot 2025-09-06 105619" src="https://github.com/user-attachments/assets/b5f52c67-bba4-4505-b9cc-848b73d31ff9" />
+
+
+
+As you can see the Powershell script created a user with the username "bid.tuk". We were able to login to Client-1 with his credentials as a normal user.
+
+<img width="824" height="429" alt="Screenshot 2025-09-06 105653" src="https://github.com/user-attachments/assets/e413e324-61f5-4834-bdb1-a2b102a918f0" />
+
+
+
+
+
+
+
+
+
+<p>
+
+
+
 
 
