@@ -49,3 +49,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 <p>
+- Run Active Directory Users & Computers shown below.
+
+<img width="822" height="494" alt="Screenshot 2025-09-06 103819" src="https://github.com/user-attachments/assets/dbf5c75f-b67e-4df0-8c55-8a2472d6abc3"/>
+
