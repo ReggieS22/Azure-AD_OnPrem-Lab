@@ -44,7 +44,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
    - Setup a new foret as "mydomain.com"
    - Restart and then log back into DC-1 as user: mydomain.com\reggie-admin  
 
-<img width="798" height="476" alt="Screenshot 2025-09-06 103802" src="https://github.com/user-attachments/assets/f0458eed-f2c0-4039-9548-0e1325a9222b" />
+<img width="798" height="476" alt="Screenshot 2025-09-06 103802" src="https://github.com/user-attachments/assets/f0458eed-f2c0-4039-9548-0e1325a9222b"/>
 
 
 
@@ -72,6 +72,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create OU_EMPLOYEES and _ADMINS
 
 <img width="828" height="494" alt="Screenshot 2025-09-06 103851" src="https://github.com/user-attachments/assets/bb94dd8e-eb7e-4700-afc7-bd608abc2407"/>
+<p>
+
+
+
+
+## Step 4: Create a Domain Admin user within the domain
+
+
+   - Right click on the OU  _ADMINS and create a new user named Jane Doe.
+   - With the username jane_admin  
+
+<img width="827" height="497" alt="Screenshot 2025-09-06 103920" src="https://github.com/user-attachments/assets/52be3374-5a35-4afd-823c-65ad6d7f6e34" />
+<p>
+
 
 
 
