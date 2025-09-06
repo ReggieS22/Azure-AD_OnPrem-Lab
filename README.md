@@ -22,21 +22,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+## Step 1: Overview
 
-<strong>Step 1: Overview<strong>
+**Configure and install Active Directory services on the designated Domain Controller virtual machine.**
 
-<p>
-<strong>Configure and install Active Directory services on the designated Domain Controller virtaul machine.</strong>
-</p>
-1. Install "Active Directory Domain Services" in DC-1
-- In the Server Manager dashboard
-- Click Add roles and features
-- Select Active Directory Domain Services and finish the installation.
-<p>
-</p>
-<img width="798" height="476" alt="Screenshot 2025-09-06 103735" src="https://github.com/user-attachments/assets/0d99bc45-a533-4dda-bb29-157543c479a1"/>
-<br />
+1. Install "Active Directory Domain Services" in DC-1  
+   - In the Server Manager dashboard  
+   - Click **Add roles and features**  
+   - Select **Active Directory Domain Services** and finish the installation.  
+
+![Screenshot 2025-09-06 103735](https://github.com/user-attachments/assets/0d99bc45-a533-4dda-bb29-157543c479a1)
 
 <p>
 
