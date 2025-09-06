@@ -89,4 +89,27 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
+## Step 5: Add jane_admin to the "Domain Admins" Security Group 
+
+
+   - Turn Jane Doe into an admin by right clicking her name > properties
+   - member of and adding her to the "Domain Admins" Security Group
+
+<img width="829" height="495" alt="Screenshot 2025-09-06 104037" src="https://github.com/user-attachments/assets/e911f82c-4922-49ea-a400-afaf42c1e959" />
+
+<p>
+
+
+## Step 6: Log out of DC-1 to log back in as Jane Doe
+
+
+   - Log back in as "mydomain.com\jane_admin"
+   - Use jane_admin as your admin account from now on
+
+<img width="453" height="557" alt="Screenshot 2025-09-06 104858" src="https://github.com/user-attachments/assets/a2406d9b-e020-47ef-8727-cc6a44ddbd49" />
+
+
+<p>
+
+
 
