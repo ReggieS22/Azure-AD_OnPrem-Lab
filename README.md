@@ -113,7 +113,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
-## Step 7: Login to Client-1 as the original local admin and join it to the domain  (Computer will restart
+## Step 7: Login to Client-1 as the original local admin and join it to the domain  (Computer will restart)
 
    - Right click the start menu > click system > click rename this pc advanced
    - Under the computer name tab, click on "Change"
