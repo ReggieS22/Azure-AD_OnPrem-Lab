@@ -55,3 +55,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <img width="822" height="494" alt="Screenshot 2025-09-06 103819" src="https://github.com/user-attachments/assets/dbf5c75f-b67e-4df0-8c55-8a2472d6abc3"/>
 
+
+
+
+
+
+
+## Step 3: Create an Organizational Unit(OU) named _EMPLOYEES and _ADMINS
+
+   - Right click on mydomain.com and select New and click on Organizational Unit
+<img width="827" height="494" alt="Screenshot 2025-09-06 103839" src="https://github.com/user-attachments/assets/06054437-fc5b-4bcc-aa85-9310cd0ec976"/>
+
+
+- Create OU_EMPLOYEES and _ADMINS
+
+<img width="828" height="494" alt="Screenshot 2025-09-06 103851" src="https://github.com/user-attachments/assets/bb94dd8e-eb7e-4700-afc7-bd608abc2407"/>
+
+
+
+
