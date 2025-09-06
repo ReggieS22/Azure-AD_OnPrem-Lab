@@ -113,3 +113,24 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
+## Step 7: Login to Client-1 as the original local admin and join it to the domain  (Computer will restart
+
+   - Right click the start menu > click system > click rename this pc advanced
+   - Under the computer name tab, click on "Change"
+   - Join it to the domain "mydomain.com"
+   
+
+<img width="825" height="552" alt="Screenshot 2025-09-06 105051" src="https://github.com/user-attachments/assets/6bcc6533-ec89-4d80-b10c-b2568baeb5d4" />
+
+ - Enter the name and password of an account with permission to join the domain.
+ - Use the account: mydomain.com\jane_admin
+ - Once Client-1 has been added, the VM will restart.
+
+<img width="462" height="304" alt="Screenshot 2025-09-06 105113" src="https://github.com/user-attachments/assets/89e75f2c-7389-4d7e-ac81-93658bbd7a1f" />
+
+
+
+<p>
+
+
+
