@@ -27,11 +27,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <strong>Step 1: Overview<strong>
 
 <p>
-<strong>Setting up Active Directory infrastructure, I will configure and interconnect two virtual machines. One acting as a domain controller with a static IP address for the DNS and one acting as a client machine with a dynamic IP address.</strong>
+<strong>Configure and install Active Directory services on the designated Domain Controller virtaul machine.</strong>
 </p>
-<img <img width="829" height="708" alt="Screenshot 2025-09-03 140121" src="https://github.com/user-attachments/assets/ae6e2329-5d49-4af7-921f-ae28db986c90"/>
+1. Install "Active Directory Domain Services" in DC-1
+- In the Server Manager dashboard
+- Click Add roles and features
+- Select Active Directory Domain Services and finish the installation.
 <p>
 </p>
+<img width="798" height="476" alt="Screenshot 2025-09-06 103735" src="https://github.com/user-attachments/assets/0d99bc45-a533-4dda-bb29-157543c479a1"/>
 <br />
 
 <p>
